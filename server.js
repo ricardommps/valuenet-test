@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
-    console.log(decode(680131659347))
+    console.log(">>>>RESULT:",decode(680131659347))
 });
 
 var getHash = function (srt) {
